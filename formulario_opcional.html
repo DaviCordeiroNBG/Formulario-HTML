@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário opcional</title>
+</head>
+<body>
+    <h1>Formulario Opcional</h1>
+
+    <form action="/action_page.php">
+        <fieldset>
+         <legend>Dados pessoais</legend>
+         <label for="fname">Nome:</label>
+         <input type="text" id="fname" name="fname"><br>
+         <label for="aniversario">Aniversario:</label>
+         <input type="date" id="aniversario" name="aniversario"><br><br>
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email"><br><br>
+         <label for="email">telefone:</label>
+         <input type="numero" id="telefone" name="telefone"><br>
+       </fieldset>
+       </form>
+       <form action="/action_page.php">
+           <fieldset>
+            <legend>Dados Academicos</legend>
+       <label for="Curso">Curso:</label>
+       <select name="opções" id="Cursos de t.i">
+           <option value="Ads">Ads</option>
+           <option value="banco de dados">banco de dados</option>
+           <option value="Ciencia de Dados">Ciencias de Dados</option><br>
+       </select><br>
+       <label for="semestre">semestre </label>
+       <input type="radio" id="html" name="semestre" value="1">
+       <label for="1">1º</label>
+       <input type="radio" id="html" name="semestre" value="2">
+       <label for="2">2º</label>
+       <input type="radio" id="html" name="semestre" value="3">
+       <label for="3">3º</label>
+       <input type="radio" id="html" name="semestre" value="4">
+       <label for="4">4º</label>
+       </fieldset>
+       </form>
+       <form action="/action_page.php">
+           <fieldset>
+       <label for="Trabalha?">Trabalha?</label>
+       <input type="checkbox" id="caixinha" name="quest" value="sim"><br>
+       <label for="loc">Local de Trabalho:</label>
+         <input type="loc" id="home" name="trabalho"><br>
+         <label for="exp">descreva sua experiencia:</label><br>
+         <textarea name="message" rows="10" cols="160"></textarea>       
+       </fieldset>
+       </form>
+       <input type="submit" value="gravar">
+       <input type="reset" value="limpar">
+</body>
+</html>
